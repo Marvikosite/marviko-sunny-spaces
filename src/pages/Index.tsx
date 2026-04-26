@@ -368,7 +368,7 @@ const Index = () => {
                   >
                     <option value="windows">Окна ПВХ</option>
                     <option value="alu-windows">Алюминиевые окна</option>
-                    <option value="balconies">Балкон из ПВХ</option>
+                    <option value="balconies">Балконы ПВХ</option>
                     <option value="alu-balconies">Алюминиевые балконы</option>
                     <option value="doors">Двери ПВХ</option>
                     <option value="alu-doors">Алюминиевые двери</option>
