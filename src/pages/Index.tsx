@@ -322,7 +322,7 @@ const Index = () => {
       {/* Hero - lighter warm feel */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-background">
         <div className="absolute inset-0">
-          <img src={heroImg} alt="" className="w-full h-full object-cover" />
+          <img src={heroImg} alt="" className="w-full h-full object-cover" width={1920} height={1080} fetchPriority="high" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.3) 100%)" }} />
           <div className="absolute bottom-0 left-0 right-0 h-32" style={{ background: "linear-gradient(to bottom, transparent, hsl(var(--background)))" }} />
         </div>
